@@ -22,3 +22,24 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# テーブル設計
+## usersテーブル
+
+### association
+- has_many children, through: :user_children
+## childrenテーブル
+### association
+
+## children_userテーブル
+### association
+
+## medicalテーブル
+### association
+
+## commentテーブル
+### association
+
+## diaryテーブル
+### association
+
